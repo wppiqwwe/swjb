@@ -2,7 +2,18 @@
   margin: 0;/*바깥쪽 여백 : 0*/
   padding: 0;/*안쪽 여백 : 0*/
   box-sizing: border-box; /*테두리두께 무시*/
+
 }
+
+html{
+  scroll-behavior: smooth;
+
+
+}
+
+
+
+
 a{
   text-decoration: none; /*밑줄 제거*/
   display: block; /*a태그를 블록요소로 변경*/
@@ -16,7 +27,7 @@ li{
   width: 100%;
   height: 1200px;
 
-  background: linear-gradient( rgba(0,0,0,0.8)   , rgba(0,0,0,0.8)    )         ,url(bg.jpg) no-repeat;
+  background: linear-gradient( rgba(0,0,0,0.8)   , rgba(0,0,0,0.8)    )         ,url(강아지3.jpg) no-repeat;
   background-size: cover;
   
   color: white;
@@ -122,6 +133,7 @@ li{
 .about h2{
   font-size: 30px;
   color: #ff6a6a;
+
 }
 .about h1{
   font-size: 50px;
@@ -131,6 +143,7 @@ li{
   height: 500px;
 
   display: flex;
+
 }
 .about .left{
   width: 400px;
@@ -144,6 +157,7 @@ li{
   width: 800px;
   height: 500px;
   padding-left: 10px;
+
 }
 .about .right h3{
   color: #ff6a6a;
@@ -159,8 +173,142 @@ li{
 }
 .fa-youtube{
   color: red;
-  font-size: 50px
+ 
 }
 .fa-facebook{
   color: #3b5998;
+}
+
+
+.skills{
+  width: 100%;
+  height: 700px;
+  background-color: #eee;
+
+}
+.skills-inner{
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 100px;
+
+}
+.skills h2{
+  font-size: 30px;
+  color: #ff6a6a;
+}
+.skills h1{
+  font-size: 50px;
+}
+.skills .contents{
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: space-around;
+
+}
+.skills .contents li{
+  width: 350px;
+  height: 350px;
+  background-color: white;
+
+  padding: 10px;
+
+  transition: 0.3s;
+
+}
+.skills h3{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.skills p{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+.skills i{
+  color: #ff6a6a;
+}
+.fa-keyboard{
+  font-size: 50px;
+}
+.skills .contents li:hover{
+  background-color: #ff6a6a;
+  color: white;
+  transform: scale(1.1);
+}
+.skills .contents li:hover i{
+  color: white;
+}
+.bg{
+  width: 100%;
+  height: 800px;
+  background: url(강아지2.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.projects{
+  height: 1200px;
+}
+.contact{
+  width: 1200px;
+  height: 800px;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+.contact h2{
+  font-size: 30px;
+  color: #ff6a6a;
+}
+.contact h1{
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+.contact .contents{
+  width: 1200px;
+  height: 600px;
+  display: flex;
+}
+.contact .left{
+  width: 400px;
+  height: 600px;
+}
+.contact .right{
+  width: 800px;
+  height: 600px;
+  border-left: 2px dashed #ccc;
+  padding-left: 50px;
+}
+.info li{
+  width: 350px;
+  height: 80px;
+
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.contact .rignt p{
+  font-size: 25px;
+}
+.contact .right input{
+  width: 500px;
+  height: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+}
+.contact .right textarea{
+  width: 500px;
+  height: 300px;
+  border: 1px solid #ccc;
+}
+.contact .right button{
+  width: 500px;
+  height: 30px;
+  background-color: #ff6a6a;
+  color: white;
 }
